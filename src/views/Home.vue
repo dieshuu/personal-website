@@ -7,9 +7,41 @@
                 diegocamargo@tamu.com
             </a>
         </p>
+        <div class="date-time">
+            <p>
+                {{ currentDate }}
+            </p>
+            <p>
+                {{ currentTime }}
+            </p>
+        </div>
         <img src="../assets/espeon-umbreon.gif">
     </div>
 </template>
+
+<script>
+import { getCurrentDateTime } from '../utilities/dateTime';
+
+export default {
+    data() {
+        return {
+            currentDate: "",
+            currentTime: ""
+        };
+    },
+    methods: {
+        updateDateTime() {
+            const { currentDate, currentTime } = getCurrentDateTime();
+            this.currentDate = currentDate;
+            this.currentTime = currentTime;
+        }
+    },
+    mounted() {
+        this.updateDateTime();
+        setInterval(this.updateDateTime, 1000);
+    }
+};
+</script>
 
 <style scoped>
     .home h3 {

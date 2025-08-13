@@ -22,17 +22,17 @@
         </p>
         <div class="social-media">
             <div class="social-link">
-                <a href="https://github.com/dieshuu">
+                <a href="https://github.com/dieshuu" target="_blank">
                     <p>github</p>
                 </a>
             </div>
             <div class="social-link">
-                <a href=https://www.linkedin.com/in/dcamargo04/>
+                <a href=https://www.linkedin.com/in/dcamargo04/ target="_blank">
                     <p>linkedin</p>
                 </a>
             </div>
             <div class="social-link">
-                <a href=https://www.instagram.com/diego.camargo_/>
+                <a href=https://www.instagram.com/diego.camargo_/ target="_blank">
                     <p>instagram</p>
                 </a>
             </div>
