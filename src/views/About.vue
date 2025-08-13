@@ -18,9 +18,12 @@
             during my free time, i enjoy playing vietnamese cards and listening to house music.
         </p>
         <p>
-            if you want to contact me, here are my socials:
+            if you want to contact me, here are my socials and email:
         </p>
         <div class="social-media">
+            <p>
+                socials:
+            </p>
             <div class="social-link">
                 <a href="https://github.com/dieshuu" target="_blank">
                     <p>github</p>
@@ -36,6 +39,14 @@
                     <p>instagram</p>
                 </a>
             </div>
+        </div>
+        <div class="email">
+            <p>
+                email:
+            </p>
+            <a href="mailto:diegocamargo@tamu.edu">
+                <p>diegocamargo@tamu.com</p>
+            </a>
         </div>
     </div>
 </template>
@@ -64,7 +75,18 @@
         color: #5782a6;
     }
 
-    .about-me .social-link p {
-        font-size: 1.5rem;
+    .about-me .email {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .about-me .email a {
+        color: #66ccee;
+    }
+
+    .about-me .email a:hover {
+        color: #5782a6;
     }
 </style>

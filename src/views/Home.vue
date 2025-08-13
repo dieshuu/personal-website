@@ -1,12 +1,6 @@
 <template>
     <div class="home">
         <h3>diego camargo</h3>
-        <p>
-            email:
-            <a href="mailto:diegocamargo@tamu.edu">
-                diegocamargo@tamu.com
-            </a>
-        </p>
         <div class="date-time">
             <p>
                 {{ currentDate }}
