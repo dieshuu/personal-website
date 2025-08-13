@@ -1,30 +1,28 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <div class="navigation">
+    <RouterLink to="/">home</RouterLink>
+    <RouterLink to="/about">about me</RouterLink>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <RouterView/>
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+  .navigation {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navigation a {
+    font-size: 1.5em;
+    color: #e4cddd;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .navigation a:hover {
+    color: #726ca8;
+  }
 </style>
