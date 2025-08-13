@@ -4,7 +4,7 @@
         <p>
             email:
             <a href="mailto:diegocamargo@tamu.edu">
-                diegocamargo@.com
+                diegocamargo@tamu.com
             </a>
         </p>
         <img src="../assets/espeon-umbreon.gif">
