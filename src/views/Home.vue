@@ -4,7 +4,7 @@
         <p>
             email:
             <a href="mailto:diegocamargo@tamu.edu">
-                <span style="color: #5782a6;">diegocamargo@.com</span>
+                diegocamargo@.com
             </a>
         </p>
         <img src="../assets/espeon-umbreon.gif">
@@ -12,15 +12,23 @@
 </template>
 
 <style scoped>
-    .home h3{
+    .home h3 {
         font-size: 2rem;
     }
 
-    .home p{
+    .home p {
         font-size: 1.5rem;
     }
 
-    .home img{
-        height: 10rem
+    .home img {
+        height: 10rem;
+    }
+
+    .home a {
+        color: #66ccee;
+    }
+
+    .home a:hover {
+        color: #5782a6;
     }
 </style>

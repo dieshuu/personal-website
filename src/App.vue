@@ -2,6 +2,7 @@
   <div class="navigation">
     <RouterLink to="/">home</RouterLink>
     <RouterLink to="/about">about me</RouterLink>
+    <RouterLink to="/memories">memories</RouterLink>
   </div>
   <RouterView/>
 </template>

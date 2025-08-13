@@ -22,15 +22,18 @@
         </p>
         <div class="social-media">
             <div class="social-link">
-            <img src="../assets/github-logo.png" alt="github">
                 <a href="https://github.com/dieshuu">
                     <p>github</p>
                 </a>
             </div>
             <div class="social-link">
-            <img src="../assets/linkedin-logo.png" alt="linkedin">
                 <a href=https://www.linkedin.com/in/dcamargo04/>
                     <p>linkedin</p>
+                </a>
+            </div>
+            <div class="social-link">
+                <a href=https://www.instagram.com/diego.camargo_/>
+                    <p>instagram</p>
                 </a>
             </div>
         </div>
@@ -38,32 +41,26 @@
 </template>
 
 <style scoped>
-    .about-me h3{
+    .about-me h3 {
         font-size: 2rem;
     }
 
-    .about-me p{
+    .about-me p {
         font-size: 1.5rem;
     }
 
     .about-me .social-media {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
         gap: 1rem;
     }
 
-    .about-me .social-link {
-        display: flex;
-        align-items: center;
-        justify-content: center; 
-        gap: 0.5rem;
-    }
-
-    .about-me .social-link img {
-        height: 3.5rem;
-    }
-
     .about-me .social-link a {
+        color: #66ccee;
+    }
+
+    .about-me .social-link a:hover {
         color: #5782a6;
     }
 
