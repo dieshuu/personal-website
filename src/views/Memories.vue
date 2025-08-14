@@ -1,6 +1,8 @@
 <template>
     <div class="memories">
-        <h3>memories coming soon</h3>
+        <h3>
+            memories coming soon
+        </h3>
     </div>
 </template>
 

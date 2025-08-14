@@ -1,6 +1,8 @@
 <template>
     <div class="about-me">
-        <h3>about me</h3>
+        <h3>
+            about me
+        </h3>
         <p>
             hello! my name is diego camargo and i am currently a senior at 
             <span style="color: #efcb69;">texas a&m university</span> 
@@ -58,6 +60,7 @@
 
     .about-me p {
         font-size: 1.5rem;
+        line-height: 1.2;
     }
 
     .about-me .social-media {
